@@ -18,7 +18,7 @@ function App () {
         <Physics>
           <Cubes />
           <Player />
-          <Model path='src/images/rumia.glb' scale={[0.1, 0.1, 0.1]} position={[0, 0, -5]} />
+          <Model scale={[0.1, 0.1, 0.1]} position={[0, 0, -5]} />
           <Background />
         </Physics>
       </Canvas>
