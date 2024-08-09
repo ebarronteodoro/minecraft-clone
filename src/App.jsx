@@ -18,7 +18,7 @@ function App () {
         <Physics>
           <Cubes />
           <Player />
-          <Model scale={[0.1, 0.1, 0.1]} position={[0, 0, -5]} />
+          <Model scale={[0.05, 0.05, 0.05]} position={[0, 0, -5]} />
           <Background />
         </Physics>
       </Canvas>
