@@ -6,6 +6,7 @@ import { FPV as Fpv } from './components/FPV'
 import { Player } from './components/Player'
 import { Cubes } from './components/Cubes'
 import { TextureSelector } from './components/TextureSelect'
+import Model from './components/Model'
 
 function App () {
   return (
@@ -17,6 +18,7 @@ function App () {
         <Physics>
           <Cubes />
           <Player />
+          <Model path='src/assets/rumia.glb' scale={[0.1, 0.1, 0.1]} position={[0, 0, -5]} />
           <Background />
         </Physics>
       </Canvas>
